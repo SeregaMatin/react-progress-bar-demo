@@ -1,3 +1,6 @@
+# Demo application on react
+[![Build Status](https://travis-ci.com/SeregaMatin/react-progress-bar-demo.svg?branch=master)](https://travis-ci.com/SeregaMatin/react-progress-bar-demo)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
