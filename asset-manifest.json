@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-progress-bar-demo/static/css/main.5e3647ae.chunk.css",
+    "main.js": "/react-progress-bar-demo/static/js/main.b3043e14.chunk.js",
+    "runtime-main.js": "/react-progress-bar-demo/static/js/runtime-main.c4e1048f.js",
+    "static/js/2.864fd81c.chunk.js": "/react-progress-bar-demo/static/js/2.864fd81c.chunk.js",
+    "index.html": "/react-progress-bar-demo/index.html",
+    "precache-manifest.7de91ff5f690dc508a234c2cdfa9e614.js": "/react-progress-bar-demo/precache-manifest.7de91ff5f690dc508a234c2cdfa9e614.js",
+    "service-worker.js": "/react-progress-bar-demo/service-worker.js",
+    "static/js/2.864fd81c.chunk.js.LICENSE.txt": "/react-progress-bar-demo/static/js/2.864fd81c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-progress-bar-demo/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4e1048f.js",
+    "static/js/2.864fd81c.chunk.js",
+    "static/css/main.5e3647ae.chunk.css",
+    "static/js/main.b3043e14.chunk.js"
+  ]
+}
