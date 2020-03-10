@@ -1,2 +1,8 @@
 .ProgressBar {
+  position: relative;
+  width: 100%;
+  height: $height__ProgressBar;
+  border-radius: $borderRadius__ProgressBar;
+  border: 1px solid $color__neutral--light;
+  background: $color__neutral--light;
 }

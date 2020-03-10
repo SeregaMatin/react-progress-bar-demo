@@ -1,7 +1,8 @@
 .Example {
   width: 60vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
 @media (max-width: 1000px) {

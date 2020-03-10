@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   position: relative;
   padding: 15px;
   font-size: 0.95 * $fontSize__Typography;
@@ -9,6 +10,7 @@
   line-height: 0.6 * $lineHeight__Typography;
   text-align: center;
   text-decoration: none;
+  user-select: none;
   cursor: pointer;
   outline: none;
   color: $color__onPrimary;
