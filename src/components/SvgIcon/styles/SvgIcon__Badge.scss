@@ -1,0 +1,15 @@
+.SvgIcon {
+  &__Badge {
+    position: absolute;
+    right: -40%;
+    top: -40%;
+    font-size: 40%;
+    padding: 0.6em;
+    border-radius: 999px;
+    line-height: 0.60em;
+    background: $color__secondary;
+    color: $color__onSecondary;
+    text-align: center;
+    font-weight: bold;
+  }
+}

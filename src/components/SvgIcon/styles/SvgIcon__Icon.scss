@@ -1,0 +1,39 @@
+.SvgIcon {
+  &__Icon {
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: inherit;
+    vertical-align: middle;
+
+    // Disable SVG-title wich will be shown on hover.
+    // Click-event and other pointer events will still be fired on wrapping .svg-icon block.
+    pointer-events: none;
+  }
+
+  &--size_xs {
+    font-size: 0.4 * $fontSize__Typography;
+  }
+
+  &--size_s {
+    font-size: 0.9 * $fontSize__Typography;
+  }
+
+  &--size_m {
+    font-size: 1.4 * $fontSize__Typography;
+  }
+
+  &--size_l {
+    font-size: 1.9 * $fontSize__Typography;
+  }
+
+  &--size_xl {
+    font-size: 2.4 * $fontSize__Typography;
+  }
+
+  &--size_xxl {
+    font-size: 2.9 * $fontSize__Typography;
+  }
+}

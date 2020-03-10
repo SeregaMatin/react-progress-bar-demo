@@ -1,0 +1,5 @@
+.Button {
+  &--disabled {
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,13 @@
+.Button {
+  &__Icon {
+    cursor: pointer;
+
+    &--leftAligned {
+      margin-right: $margin__Button__Icon;
+    }
+
+    &--rightAligned {
+      margin-left: $margin__Button__Icon;
+    }
+  }
+}

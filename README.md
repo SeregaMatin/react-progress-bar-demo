@@ -1,11 +1,26 @@
-# Demo application on react
+# React demo application
+
 [![Build Status](https://travis-ci.com/SeregaMatin/react-progress-bar-demo.svg?branch=master)](https://travis-ci.com/SeregaMatin/react-progress-bar-demo)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install node.js if it isn't installed yet
+
+You can use your favorite package manager (see [instructions in official documentation](https://nodejs.org/en/download/package-manager/)).
+
+Or download installer for your platform (see [available installers](https://nodejs.org/en/download/)).
+
+## Install yarn if it isn't installed yet
+
+You can also use package manager or download installer (see [instructions in official documentation](https://classic.yarnpkg.com/en/docs/install)).
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+
+Installs project dependencies.
 
 ### `yarn start`
 

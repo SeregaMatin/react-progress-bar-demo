@@ -1,0 +1,17 @@
+.Example {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .Example {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .Example {
+    width: 100vw;
+  }
+}

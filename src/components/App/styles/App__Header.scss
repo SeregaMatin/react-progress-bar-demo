@@ -1,0 +1,36 @@
+.App {
+  &__Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  &__HeaderNavigation {
+    height: $height__App__Header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    background-color: $color__primary;
+    color: $color__onPrimary;
+
+    @media (max-width: 700px) {
+      &Headline {
+        font-size: 0.8 * $fontSize__Typography--headline1;
+      }
+
+      &Button {
+        &Caption {
+          display: none;
+        }
+      }
+    }
+
+    @media (max-width: 400px) {
+      &Headline {
+        font-size: 0.6 * $fontSize__Typography--headline1;
+      }
+    }
+  }
+}

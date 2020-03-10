@@ -1,0 +1,16 @@
+.Button {
+  &--secondary {
+    background-color: $color__secondary;
+    color: $color__onSecondary;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color__secondary--light;
+      color: $color__onSecondary;
+    }
+  }
+
+  &--secondary#{&}--disabled {
+    background-color: $color__secondary--light;
+  }
+}

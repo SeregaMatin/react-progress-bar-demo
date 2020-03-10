@@ -1,0 +1,10 @@
+.App {
+  &__Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: $height__App__Header + $marginTop__App__Content;
+    margin-bottom: $marginBottom__App__Content;
+    height: calc(100vh - #{$height__App__Header} - #{$marginTop__App__Content} - #{$marginBottom__App__Content});
+  }
+}

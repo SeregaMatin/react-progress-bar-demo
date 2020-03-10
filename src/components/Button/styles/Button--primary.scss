@@ -1,0 +1,16 @@
+.Button {
+  &--primary {
+    background-color: $color__primary;
+    color: $color__onPrimary;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color__primary--light;
+      color: $color__onPrimary;
+    }
+  }
+
+  &--primary#{&}--disabled {
+    background-color: $color__primary--light;
+  }
+}
