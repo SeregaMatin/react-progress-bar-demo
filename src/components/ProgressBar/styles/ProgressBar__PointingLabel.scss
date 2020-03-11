@@ -1,0 +1,38 @@
+.ProgressBar {
+  &__PointingLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $width__PointingLabel;
+    height: $height__PointingLabel;
+    font-size: 0.75rem;
+    transform: rotate(-45deg);
+    border-radius: 50% 50% 50% 0;
+    background: $color__secondary;
+    color: $color__onSecondary;
+
+    &--top {
+      border-radius: 50% 50% 50% 0;
+    }
+
+    &--bottom {
+      border-radius: 50% 0 50% 50%;
+    }
+  }
+
+  &__PointingLabelText {
+    transform: rotate(45deg);
+  }
+
+  &__CurrentProgressLabel {
+    position: absolute;
+    top: -1 * ($height__PointingLabel + 10px);
+    right: -0.5 * $width__PointingLabel;
+  }
+
+  &__TotalProgressLabel {
+    position: absolute;
+    bottom: -1 * ($height__PointingLabel + 10px);
+    right: -0.5 * $width__PointingLabel;
+  }
+}

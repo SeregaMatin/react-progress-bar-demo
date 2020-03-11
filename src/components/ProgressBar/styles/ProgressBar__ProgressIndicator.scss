@@ -26,10 +26,10 @@
         animation: runningProgressIndicator 1.5s ease infinite;
       }
     }
+  }
 
-    &Caption {
-      padding: 0 10px 0 10px;
-    }
+  &__ProgressPercentageLabel {
+    padding: 0 10px 0 10px;
   }
 }
 

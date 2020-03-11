@@ -26,7 +26,7 @@ function SvgIcon({ className, src, children, ...props }) {
 
 SvgIcon.propTypes = {
   className: PropTypes.string,
-  src: PropTypes.string.isRequired
+  src: PropTypes.string
 };
 
 export default SvgIcon;

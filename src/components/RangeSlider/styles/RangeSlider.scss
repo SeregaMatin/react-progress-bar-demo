@@ -1,0 +1,48 @@
+.RangeSlider {
+  &.MuiSlider-root {
+    color: $color__neutral--light;
+    height: $height__RangeSlider;
+  }
+
+  &__Rail {
+    &.MuiSlider-rail {
+      height: $height__RangeSlider;
+      border-radius: $borderRadius__RangeSlider;
+      opacity: 1;
+    }
+  }
+
+  &__Track {
+    &.MuiSlider-track {
+      height: $height__RangeSlider;
+      border-radius: $borderRadius__RangeSlider;
+      background: $color__primary--light;
+    }
+  }
+
+  &__Thumb.MuiSlider-thumb {
+    &.MuiSlider-thumb {
+      height: 24px;
+      width: 24px;
+      background-color: #fff;
+      border: 2px solid $color__primary--light;
+      margin-top: -$height__RangeSlider;
+      margin-left: -12px;
+
+      &:focus, &:hover, &:active {
+        box-shadow: inherit;
+      }
+    }
+  }
+
+  &__ValueLabel {
+    &.MuiSlider-valueLabel {
+      left: calc(-50% + 4px);
+
+      & * {
+        background: $color__secondary;
+        color: $color__onSecondary;
+      }
+    }
+  }
+}
